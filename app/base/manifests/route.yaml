@@ -6,7 +6,6 @@ metadata:
   labels:
     app: bootcamp-v2
 spec:
-  host: bootcamp-v2-art-test.apps.art.cluster
   to:
     kind: Service
     name: bootcamp-v2
