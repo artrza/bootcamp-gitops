@@ -2,7 +2,6 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: bootcamp-config
-  namespace: art-test
 data:
   MESSAGE: Ich freue mich auf die nächsten Tage!
   NAME: Aliriza Tasdemir
