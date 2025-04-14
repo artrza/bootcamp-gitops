@@ -2,7 +2,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: bootcamp-v2
-  namespace: bootcamp-test
   labels:
     app: bootcamp-v2
 spec:
