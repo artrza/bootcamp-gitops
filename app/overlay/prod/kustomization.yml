@@ -6,3 +6,6 @@ resources:
 patches:
   - path: patch-configmap.yaml
 
+labels:
+  - key: environment
+    value: prod
