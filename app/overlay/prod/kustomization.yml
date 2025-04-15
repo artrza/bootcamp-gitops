@@ -7,5 +7,7 @@ patches:
   - path: patch-configmap.yaml
 
 labels:
-  - key: environment
-    value: prod
+  - pairs:
+      someName: someValue
+      owner: alice
+      app: bingo
