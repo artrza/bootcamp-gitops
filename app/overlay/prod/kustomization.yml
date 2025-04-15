@@ -13,4 +13,9 @@ labels:
       app: bootcamp-prod
 
 nameSuffix: -prod-user-1
+
+images:
+  - name: quay.io/tasdemir/bootcamp-v2
+    newName: quay.io/tasdemir/bootcamp-v2
+    newTag: latest
       
