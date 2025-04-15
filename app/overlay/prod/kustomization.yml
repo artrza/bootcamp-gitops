@@ -17,5 +17,5 @@ nameSuffix: -prod-user-1
 images:
   - name: quay.io/tasdemir/bootcamp-v2
     newName: quay.io/tasdemir/bootcamp-v2
-    newTag: latest
+    newTag: v1
       
