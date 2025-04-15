@@ -8,6 +8,8 @@ patches:
 
 labels:
   - pairs:
-      someName: someValue
-      owner: alice
-      app: bingo
+      owner: user1
+      app: bootcamp-prod
+
+nameSuffix: -prod-user-1
+      
