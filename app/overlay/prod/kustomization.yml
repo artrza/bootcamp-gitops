@@ -5,6 +5,7 @@ resources:
 
 patches:
   - path: patch-configmap.yaml
+  - path: patch-route.yaml
 
 labels:
   - pairs:
