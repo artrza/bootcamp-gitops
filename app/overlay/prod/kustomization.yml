@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Der Namespace, in den die Ressourcen aus dem Overlay deployt werden sollen.
+namespace: bootcamp-user1-prod
+
+# Verweis auf die Base-Ressourcen
+bases:
+  - ../../base/manifests
+
+# Patch-Datei(en) hinzufügen – hier zur Anpassung der ConfigMap
+patchesStrategicMerge:
+  - patch-configmap.yaml
+
+# Zusätzliche Labels, die auf alle Ressourcen im Overlay angewendet werden
+commonLabels:
+  environment: prod
