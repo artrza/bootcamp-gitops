@@ -5,4 +5,4 @@ metadata:
 data:
   MESSAGE: Ich freue mich auf die nächsten Tage!
   NAME: Aliriza Tasdemir
-  ROLE: Trainer
+  ROLE: Ich wurde per ArgoCD ausgerollt in Namespace DEV!
