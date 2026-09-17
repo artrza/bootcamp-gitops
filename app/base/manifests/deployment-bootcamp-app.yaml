@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: bootcamp-v2
-          image: 'quay.io/tasdemir/bootcamp-v2@sha256:bd1440f23749f29af33abcd4fa036a9fd1721aae65d27e7ebf5bcc56193357fa'
+          image: 'quay.io/tasdemir/bootcamp-v2:12'
           ports:
             - containerPort: 8080
               protocol: TCP
